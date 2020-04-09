@@ -22,8 +22,10 @@ server.get('/', (req, res) => {
     <h1>Frodo and Friends</h1>
     <h2>IT'S WORKING</h2>
     <img src="https://media.tenor.com/images/7e567df8c48649cc2d40caadcd127523/tenor.gif" alt="frodooo"/>
-    <a href="https://frodo-and-friends.herokuapp.com/api/posts">/api/posts</a>
-    <a href="https://frodo-and-friends.herokuapp.com/api/users">/api/users</a>
+    <div style="margin:20px">
+      <a href="https://frodo-and-friends.herokuapp.com/api/posts">/api/posts</a>
+      <a href="https://frodo-and-friends.herokuapp.com/api/users">/api/users</a>
+    </div>
   </div>
   `);
 });
